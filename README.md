@@ -1,4 +1,4 @@
-# Raindrops
+# Ruby: Raindrops
 
 Write a program that converts a number to a string, the contents of which depends on the number's factors.
 
@@ -10,13 +10,27 @@ Write a program that converts a number to a string, the contents of which depend
 
 ## Examples
 
-- 28's prime-factorization is 2, 2, 7.
+- 28's factors are 2, 4, **7**, 14.
   - In raindrop-speak, this would be a simple "Plong".
-- 1755 prime-factorization is 3, 3, 3, 5, 13.
+- 30's factors are 2, **3**, **5**, 6, 15.
   - In raindrop-speak, this would be a "PlingPlang".
-- The prime factors of 34 are 2 and 17.
+- 34 only has two factors- 2 and 17.
   - Raindrop-speak doesn't know what to make of that,
     so it just goes with the straightforward "34".
+
+The tests use the Minitest testing framework. To install it run the command:
+
+    gem install minitest
+
+Run the tests with the `ruby` command:
+
+    ruby raindrops_test.rb
+
+## Resources
+
+If you have never used Minitest, check out [Intro to TDD][tdd] tutorial from Jumpstart Lab.
+
+[tdd]: http://tutorials.jumpstartlab.com/topics/testing/intro-to-tdd.html
 
 ## Source
 
@@ -26,3 +40,6 @@ This exercise is from the [Ruby][ruby] track on [Exercism][exercism]
 
 [exercism]: http://exercism.io
 [ruby]: http://exercism.io/languages/ruby
+
+
+
